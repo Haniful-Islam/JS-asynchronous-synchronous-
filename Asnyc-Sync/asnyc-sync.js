@@ -7,9 +7,13 @@ const taskOne = () => {
 const taskTwo = () => {
     console.log('task two');
 }
-
+// const dataLoading = () =>{
+//     console.log('task three, data loading.....');
+// }
 const taskThree = () => {
-    console.log('task three');
+    setTimeout(() => {
+        console.log('task three, data loading.....');
+    }, 2000)//Asnychrounous
 }
 
 const taskFour = () => {
